@@ -59,14 +59,13 @@ function esemenyKezeles2() {
     feladatElem[0].innerHTML += `<div class="kocsiKep"><img src="kodiaq_blue.webp" alt=""></div>`;
     esemenyKezeles3();
   }
-
 }
 
 function esemenyKezeles3() {
-    let kepElem = document.getElementsByClassName("kocsiKep")
-    kepElem[0].addEventListener("mouseover", nagyit)
+  let kepElem = document.getElementsByClassName("kocsiKep");
+  kepElem[0].addEventListener("mouseover", nagyit);
 
-    function nagyit() {
-        kepElem[0].style.width = "125%";
-    }
+  function nagyit() {
+    kepElem[0].style.width = "125%";
+  }
 }
